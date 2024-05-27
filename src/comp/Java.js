@@ -14,19 +14,19 @@ export default function Java() {
             </Helmet>
             <div className="container px-5 pb-24 pt-16 mx-auto">
                 <div className="flex flex-col text-center w-full mb-20">
-                    <h1 className="text-3xl font-medium title-font mb-4 text-gray-900">Welcome!</h1>
-                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Explore my JavaScript projects, highlighting dynamic and interactive web applications. Each project showcases my proficiency in JavaScript and commitment to building engaging user experiences with modern web development techniques.</p>
+                    <h1 className="text-3xl font-medium title-font mb-4 text-gray-300">Welcome!</h1>
+                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-300">Explore my JavaScript projects, highlighting dynamic and interactive web applications. Each project showcases my proficiency in JavaScript and commitment to building engaging user experiences with modern web development techniques.</p>
                 </div>
                 <div className="flex flex-wrap -m-4">
 
                     <div className="p-4 lg:w-1/4 md:w-1/2">
                         <div className="h-full flex flex-col items-center text-center">
-                            <img alt="team" className="flex-shrink-0 rounded-lg shadow-md shadow-black w-full h-56 object-cover object-center mb-4" src={CryptoView} />
+                            <img alt="team" className="flex-shrink-0 rounded-lg shadow-md shadow-white w-full h-56 object-cover object-center mb-4" src={CryptoView} />
                             <div className="w-full">
                                 <a href="https://ankitpal7066.github.io/08CryptoSearch/">
-                                    <h2 className="hover:underline title-font font-medium text-lg text-gray-900">Crypto<span className="text-red-600">View</span></h2>
+                                    <h2 className="hover:underline title-font font-medium text-lg text-gray-300">Crypto<span className="text-red-600">View</span></h2>
                                 </a>
-                                <p className="mb-4">Explore my CryptoView website to see top coins and search for specific cryptocurrencies. This project focuses on functionality over responsive design, showcasing my JavaScript skills in data fetching and display.</p>
+                                <p className="mb-4 text-gray-300">Explore my CryptoView website to see top coins and search for specific cryptocurrencies. This project focuses on functionality over responsive design, showcasing my JavaScript skills in data fetching and display.</p>
                                 <span className="inline-flex">
                                     <a className="text-gray-500">
                                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
@@ -50,12 +50,12 @@ export default function Java() {
 
                     <div className="p-4 lg:w-1/4 md:w-1/2">
                         <div className="h-full flex flex-col items-center text-center">
-                            <img alt="team" className="flex-shrink-0 rounded-lg shadow-md shadow-black w-full h-56 object-cover object-center mb-4" src={Food2ForkJs} />
+                            <img alt="team" className="flex-shrink-0 rounded-lg shadow-md shadow-white w-full h-56 object-cover object-center mb-4" src={Food2ForkJs} />
                             <div className="w-full">
                                 <a href="https://ankitpal7066.github.io/jsMCT/">
-                                    <h2 className="hover:underline title-font font-medium text-lg text-gray-900">Food2 <span className="text-red-600">Fork</span></h2>
+                                    <h2 className="hover:underline title-font font-medium text-lg text-gray-300">Food2 <span className="text-red-600">Fork</span></h2>
                                 </a>
-                                <p className="mb-4">Visit Food2Fork to search for multiple recipes by typing ingredients in the search bar. It's a must-visit site for discovering a variety of delicious recipes effortlessly.</p>
+                                <p className="mb-4 text-gray-300">Visit Food2Fork to search for multiple recipes by typing ingredients in the search bar. It's a must-visit site for discovering a variety of delicious recipes effortlessly.</p>
                                 <span className="inline-flex">
                                     <a className="text-gray-500">
                                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
@@ -79,12 +79,12 @@ export default function Java() {
 
                     <div className="p-4 lg:w-1/4 md:w-1/2">
                         <div className="h-full flex flex-col items-center text-center">
-                            <img alt="team" className="flex-shrink-0 rounded-lg shadow-md shadow-black w-full h-56 object-cover object-center mb-4" src={ImageS} />
+                            <img alt="team" className="flex-shrink-0 rounded-lg shadow-md shadow-white w-full h-56 object-cover object-center mb-4" src={ImageS} />
                             <div className="w-full">
                                 <a href="https://ankitpal7066.github.io/infiniteScrolling/">
-                                    <h2 className="title-font hover:underline font-medium text-lg text-gray-900"><span className="text-red-600">Image</span>Search</h2>
+                                    <h2 className="title-font hover:underline font-medium text-lg text-gray-300"><span className="text-red-600">Image</span>Search</h2>
                                 </a>
-                                <p className="mb-4">Visit this website to search for images by typing in the search bar. Enjoy infinite scrolling as you continuously browse through an endless stream of images.</p>
+                                <p className="mb-4 text-gray-300">Visit this website to search for images by typing in the search bar. Enjoy infinite scrolling as you continuously browse through an endless stream of images.</p>
                                 <span className="inline-flex">
                                     <a className="text-gray-500">
                                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
@@ -108,12 +108,12 @@ export default function Java() {
 
                     <div className="p-4 lg:w-1/4 md:w-1/2">
                         <div className="h-full flex flex-col items-center text-center">
-                            <img alt="team" className=" shadow-md shadow-black flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src={Movie} />
+                            <img alt="team" className=" shadow-md shadow-white flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src={Movie} />
                             <div className="w-full">
                                 <a href="https://ankitpal7066.github.io/MovieSearch/" className="shadow-lg shadow-black">
-                                    <h2 className="title-font hover:underline font-medium text-lg text-gray-900">Movie<span className="text-red-600">Search</span></h2>
+                                    <h2 className="title-font hover:underline font-medium text-lg text-gray-300">Movie<span className="text-red-600">Search</span></h2>
                                 </a>
-                                <p className="mb-4">Visit this movie search website to find films by typing their names. Instantly view ratings, release dates, and more details about your favorite movies.</p>
+                                <p className="mb-4 text-gray-300">Visit this movie search website to find films by typing their names. Instantly view ratings, release dates, and more details about your favorite movies.</p>
                                 <span className="inline-flex">
                                     <a className="text-gray-500">
                                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">

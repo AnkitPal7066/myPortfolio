@@ -13,19 +13,19 @@ export default function Reacte() {
 
       <div className="container px-5 pb-24 pt-16 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
-          <h1 className="text-3xl font-medium title-font mb-4 text-gray-900">Welcome</h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Discover my React projects, showcasing expertise in dynamic, responsive web applications. Each project demonstrates my skills in modern web development and dedication to seamless user experiences with React.</p>
+          <h1 className="text-3xl font-medium title-font mb-4 text-gray-300">Welcome!</h1>
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-gray-300 text-base">Discover my React projects, showcasing expertise in dynamic, responsive web applications. Each project demonstrates my skills in modern web development and dedication to seamless user experiences with React.</p>
         </div>
         <div className="flex flex-wrap justify-around -m-4">
 
           <div className="p-4 lg:w-1/4 md:w-1/2">
             <div className="h-full flex flex-col items-center text-center">
-              <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src={GeekFoods} />
+              <img alt="team" className="shadow-md shadow-white  flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src={GeekFoods} />
               <div className="w-full">
                 <a href="https://ankitpal7066.github.io/NewReact/">
-                  <h2 className="title-font font-medium text-lg text-gray-900">Geek<span className="text-red-600">Foods</span></h2>
+                  <h2 className="title-font font-medium text-lg text-gray-300">Geek<span className="text-red-600">Foods</span></h2>
                 </a>
-                <p className="mb-4">Explore this website to view a visual showcase of my work with React and Tailwind CSS. Note that it serves as a design portfolio and does not include functional features.</p>
+                <p className="mb-4 text-gray-300">Explore this website to view a visual showcase of my work with React and Tailwind CSS. Note that it serves as a design portfolio and does not include functional features.</p>
                 <span className="inline-flex">
                   <a className="text-gray-500">
                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
@@ -49,12 +49,12 @@ export default function Reacte() {
 
           <div className="p-4 lg:w-1/4 md:w-1/2">
             <div className="h-full flex flex-col items-center text-center">
-              <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src={Food2Fork} />
+              <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center shadow-md shadow-white mb-4" src={Food2Fork} />
               <div className="w-full">
                 <a href="https://ankitpal7066.github.io/food2Fork/">
-                  <h2 className="title-font font-medium text-lg text-gray-900">Food2<span className="text-red-600">Fork</span></h2>
+                  <h2 className="title-font font-medium text-lg text-gray-300">Food2<span className="text-red-600">Fork</span></h2>
                 </a>
-                <p className="mb-4">Visit this website to explore trending recipes and search for various dishes by entering ingredients. Discover the latest culinary trends and find inspiration for your next meal.</p>
+                <p className="mb-4 text-gray-300">Visit this website to explore trending recipes and search for various dishes by entering ingredients. Discover the latest culinary trends and find inspiration for your next meal.</p>
                 <span className="inline-flex">
                   <a className="text-gray-500">
                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
