@@ -1,9 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 export default function Projects() {
     return (
         <section className="text-gray-200 body-font inset-0">
+            <Helmet>
+                <title>Explore JavaScript and React.js Projects | Frontend Development Showcase</title>
+                <meta name='description' content='Discover a curated collection of JavaScript and React.js projects showcasing dynamic web applications, interactive features, and innovative functionalities. From vanilla JavaScript to advanced React.js techniques, explore the versatility and creativity in frontend development.' />
+            </Helmet>
             <div className="container px-5 py-24 mx-auto">
                 <div className="flex flex-wrap -mx-4 -mb-10 text-center">
                     <div className="sm:w-1/2 mb-10 px-4">

@@ -3,10 +3,15 @@ import CryptoView from '../Images/CryptoView.png';
 import Food2ForkJs from '../Images/Food2ForkJs.png'
 import ImageS from '../Images/ImageS.png';
 import Movie from '../Images/Movie.png'
+import { Helmet } from 'react-helmet';
 
 export default function Java() {
     return (
         <section className="text-gray-600 body-font">
+            <Helmet>
+                <title>JavaScript Projects | Frontend Development Showcase</title>
+                <meta name="description" content="Explore my JavaScript projects, highlighting dynamic and interactive web applications. Each project showcases my proficiency in JavaScript and commitment to building engaging user experiences with modern web development techniques." />
+            </Helmet>
             <div className="container px-5 pb-24 pt-16 mx-auto">
                 <div className="flex flex-col text-center w-full mb-20">
                     <h1 className="text-3xl font-medium title-font mb-4 text-gray-900">Welcome!</h1>

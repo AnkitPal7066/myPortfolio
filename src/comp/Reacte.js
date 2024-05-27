@@ -1,10 +1,16 @@
 import React from 'react';
 import GeekFoods from '../Images/GeekFoods.png';
 import Food2Fork from '../Images/Food2Fork.png';
+import { Helmet } from 'react-helmet';
 
 export default function Reacte() {
   return (
     <section className="text-gray-600 body-font">
+      <Helmet>
+        <title>React.js Projects | Frontend Development Showcase</title>
+        <meta name="description" content="Explore my React projects, highlighting dynamic and interactive web applications. Each project showcases my proficiency in React and commitment to building engaging user experiences with modern web development techniques." />
+      </Helmet>
+
       <div className="container px-5 pb-24 pt-16 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h1 className="text-3xl font-medium title-font mb-4 text-gray-900">Welcome</h1>

@@ -1,5 +1,6 @@
 import React from 'react';
 import resumeFile from '../Images/AnkitsResume.pdf'; // Import the resume file
+import { Helmet } from 'react-helmet';
 
 export default function Resume() {
     const downloadResume = () => {
@@ -11,6 +12,11 @@ export default function Resume() {
 
     return (
         <div className="py-8">
+            <Helmet>
+                <title>Ankit Pal - Resume</title>
+                <meta name="description" content="View Ankit Pal's resume, showcasing skills, experience, and qualifications in frontend development, JavaScript, React.js, and more." />
+            </Helmet>
+
             <div className="container mx-auto px-4">
                 <div className="max-w-4xl mx-auto bg-transparent rounded-lg shadow-lg overflow-hidden">
                     <div className="py-6">
