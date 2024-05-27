@@ -15,7 +15,7 @@ export default function Header({ setIsModalOpen }) {
                     <span className="text-white ml-3 text-xl">Ankit Pal</span>
                 </a>
                 <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center text-gray-300">
-                    <Link to="/" className="mr-12 hover:text-red-400 hover:cursor-pointer">Home</Link>
+                    <Link to="/myPortfolio" className="mr-12 hover:text-red-400 hover:cursor-pointer">Home</Link>
                     <Link to="/projects" className="mr-12 hover:text-red-400 hover:cursor-pointer">Projects</Link>
                     <Link to="/resume" className="mr-12 hover:text-red-400 hover:cursor-pointer">Resume</Link>
                 </nav>
